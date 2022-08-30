@@ -1,4 +1,4 @@
-import Head from "../components/Head/Head";
+import GoogleAnalysics from "../components/GoogleAnalysics/GoogleV";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/global.css";
@@ -6,7 +6,7 @@ import "../styles/global.css";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head />
+      <GoogleAnalysics />
       <Component {...pageProps} />
     </>
   );

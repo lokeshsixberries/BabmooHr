@@ -4,7 +4,7 @@ export default function index() {
   return (
     <>
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_MESUREMENT_ID}`}
+        src="https://www.googletagmanager.com/gtag/js?id=G-T46T3CF069"
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -13,7 +13,7 @@ export default function index() {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', '${process.env.GOOGLE_ANALYTICS_MESUREMENT_ID}');
+          gtag('config', 'G-T46T3CF069');
         `}
       </Script>
     </>
