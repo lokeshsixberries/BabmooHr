@@ -1,0 +1,27 @@
+.Nav {
+  border: none;
+  margin-top: 25px;
+}
+.NavItems {
+  margin: 0px 30px;
+  outline: none !important;
+  border: none !important;
+  cursor: pointer;
+}
+
+.NavLink {
+  color: white !important;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.NavLink,
+.NavItems :hover {
+  border: none !important;
+}
+
+.NavItems:hover {
+  border-bottom: 2px solid white !important;
+//   transition: 1s;
+
+}

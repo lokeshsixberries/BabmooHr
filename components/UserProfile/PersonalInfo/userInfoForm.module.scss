@@ -1,0 +1,25 @@
+.headingIcon {
+  height: 25px;
+  width: 25px;
+  color: #3c287d;
+}
+
+.formTitle {
+  color: #3c287d;
+  font-size: 20px;
+  position: relative;
+  top: -5px;
+  left: 8px;
+  font-weight: 900;
+}
+
+.userInputTag {
+  border: none;
+  border-bottom: 3px solid #982a8e;
+  border-radius: 0px;
+}
+
+.userInputTag:focus {
+  outline: none !important;
+  box-shadow: 0px !important;
+}

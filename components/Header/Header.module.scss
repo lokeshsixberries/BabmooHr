@@ -1,0 +1,46 @@
+.sideSmallHeader {
+  position: fixed;
+  height: 100%;
+  width: 80px;
+  border-radius: 0px 50px 0px 0px;
+  background: linear-gradient(180deg, #982a8e 0%, #3c287d 100%);
+}
+
+.headerLogo {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left: -5px !important;
+  color: white;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px gray;
+  cursor: pointer;
+}
+
+.headerNavLinkContainer {
+  position: relative;
+  left: 8px;
+}
+
+.headerNavIcon {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 50px 0px;
+  cursor: pointer;
+}
+
+.theamSwitch {
+  height: 20px;
+  width: 20px;
+  background-color: rebeccapurple;
+}
+
+.theamChange {
+  position: absolute;
+  bottom: 30px;
+}

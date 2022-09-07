@@ -1,0 +1,29 @@
+.heading {
+  color: #3c287d;
+  text-transform: uppercase;
+}
+
+.userInfoCard {
+  width: 90%;
+  height: 300px;
+  background: linear-gradient(180deg, #3c287d 0%, #982a8e 100%);
+  border-radius: 5px;
+}
+
+.userImage {
+  position: relative;
+  left: 3%;
+  top: 10%;
+  border-radius: 50%;
+}
+
+.userInfo {
+color: white;
+}
+
+.userInfoIcon{
+    margin: 0px 6px;
+    font-size: 15px;
+    height: 15px;
+    width: 15px;
+}
